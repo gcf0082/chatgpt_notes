@@ -1,0 +1,33 @@
+Spring Boot 是一个基于 Spring 框架的快速开发框架，为了简化 Spring 应用程序的开发，Spring Boot 提供了很多注解，这些注解可以使开发人员更加方便地开发 Spring Boot 应用程序。
+
+以下是 Spring Boot 中一些常用的注解及其作用：
+
+@SpringBootApplication：这个注解是 Spring Boot 应用程序的入口，它组合了 @Configuration、@EnableAutoConfiguration 和 @ComponentScan 三个注解，可以方便地开启 Spring Boot 自动配置和组件扫描。
+
+@RestController：这个注解用于定义一个 RESTful Web 服务，它将控制器类和 @ResponseBody 注解组合在一起，可以方便地返回 JSON 格式的数据。
+
+@RequestMapping：这个注解用于将 HTTP 请求映射到控制器方法上，可以定义请求的 URL、请求方法和参数等信息。
+
+@RequestParam：这个注解用于从请求中获取参数，可以指定参数的名称、是否必须以及默认值等信息。
+
+@PathVariable：这个注解用于从 URL 中获取参数，可以将 URL 中的变量绑定到方法的参数上。
+
+@Autowired：这个注解用于自动装配依赖，可以将需要依赖的对象自动注入到属性或构造函数中。
+
+@Value：这个注解用于从配置文件中获取属性值，可以将属性值注入到属性或构造函数中。
+
+@ConfigurationProperties：这个注解用于从配置文件中获取属性值，可以将属性值注入到一个 POJO 类中。
+
+@EnableConfigurationProperties：这个注解用于启用 @ConfigurationProperties 注解，可以将 @ConfigurationProperties 注解标注的类注入到应用程序中。
+
+@EnableAutoConfiguration：这个注解用于启用 Spring Boot 的自动配置，可以根据类路径上的依赖自动配置应用程序。
+
+@ConditionalOnProperty：这个注解用于根据配置文件中的属性值来决定是否开启某个配置项，可以根据配置项的名称、属性值和默认值等信息进行条件判断。
+
+@EnableAsync：这个注解用于启用 Spring Boot 的异步处理，可以让方法异步执行，提高应用程序的并发性能。
+
+@Async：这个注解用于标注异步方法，可以让方法异步执行。
+
+@Scheduled：这个注解用于定时执行方法，可以指定方法执行的时间间隔和执行方式等信息。
+
+以上是 Spring Boot 中一些常用的注解及其作用。
