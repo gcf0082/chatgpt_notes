@@ -1,0 +1,1 @@
+zip -u example.zip file1.txt dir1
