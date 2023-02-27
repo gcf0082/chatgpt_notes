@@ -1,0 +1,3 @@
+zip -d example.zip file1.txt
+zip -d -r example.zip dir1
+
